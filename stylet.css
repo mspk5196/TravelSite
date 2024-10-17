@@ -58,6 +58,7 @@ a{
 div h1{
     font-size: 100px;
     font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(84, 255, 201, 0.359),0 0 25px blue;
 }
 #youtube{
     color: red;
@@ -101,11 +102,29 @@ div h1{
 
   @media only screen and (max-width: 768px) {
     /* Styles for screens less than 768px wide */
-    .tit {
-      display: none; /* Hide the title on smaller screens */
+    li a{
+        padding: 10px;
+        display: block;
     }
-    .container {
-      flex-direction: column; /* Stack images vertically on small screens */
+    a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
     }
   }
+  @media only screen and (max-width: 411px) {
+    /* Styles for screens less than 768px wide */
+    li a{
+        padding: 4px;
+        display: block;
+    }
+    a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+  }
+  
 
