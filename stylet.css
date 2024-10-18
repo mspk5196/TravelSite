@@ -1,7 +1,11 @@
 body {
     background-color: aliceblue;
     background-image: url("bg.jpg");
-    background-size: 100vw 100vh;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    z-index: 0;
     overflow: auto;
 }
 ul{
@@ -112,12 +116,18 @@ div h1{
         color: black;
         font-size: 17px;
     }
+    body{
+        background-position: cover;
+    }
   }
   @media only screen and (max-width: 411px) {
     /* Styles for screens less than 768px wide */
     li a{
         padding: 4px;
         display: block;
+    }
+    body{
+        background-image: url("bg1.jpg");
     }
     a{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
