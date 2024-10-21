@@ -1,6 +1,6 @@
 body {
     background-color: aliceblue;
-    background-image: url("bg.jpg");
+    background-image: url("bg3.jpg");
     height: 100vh;
     background-position: center;
     position: relative;
@@ -95,7 +95,30 @@ div h1 {
     cursor: pointer;
 
 }
-
+#parisl{
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+#parisl:hover{
+    cursor: pointer;
+}
+#tajl{
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+#tajl:hover{
+    cursor: pointer;
+}
+#fitzl{
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+#fitzl:hover{
+    cursor: pointer;
+}
 .footer {
     position: fixed;
     left: 0;
