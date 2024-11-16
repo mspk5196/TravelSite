@@ -1,0 +1,329 @@
+body {
+    background-color: aliceblue;
+    background-image: url("travel-concept-with-landmarks.jpg");
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+}
+
+ul {
+    background-color: rgba(245, 245, 220, 0.771);
+    margin: 0;
+    padding: 0;
+    top: o;
+    left: 0;
+    border-radius: 25px;
+    max-width: 100%;
+
+}
+
+li {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: bisque;
+    border-radius: 25px;
+}
+
+li a:visited {
+    color: rgba(0, 0, 255, 0.526);
+}
+
+li a {
+    padding: 20px;
+    display: block;
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.tit {
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-right: 2%;
+}
+
+.one {
+    position: absolute;
+    color: rgba(75, 254, 194, 0.548);
+}
+
+.one h3,
+h4 {
+    visibility: hidden;
+    color: rgba(255, 208, 0, 0.692);
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.756);
+    font-size: 20px;
+}
+
+.two {
+    position: absolute;
+    color: rgb(255, 93, 93);
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+div h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(84, 255, 201, 0.359), 0 0 25px blue;
+}
+
+#youtube {
+    color: red;
+}
+
+#face {
+    color: blue;
+}
+
+#mail {
+    color: brown;
+}
+
+#link {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 216, 158);
+    width: 300px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 15px;
+    border-style: none;
+}
+#link:hover{
+    background-color: rgb(250, 159, 39);
+    box-shadow: 1px 1px 5px 5px black;
+    color: white;
+}
+#parisl{
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+#parisl:hover{
+    cursor: pointer;
+}
+#tajl{
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+#tajl:hover{
+    cursor: pointer;
+}
+#fitzl{
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+#fitzl:hover{
+    cursor: pointer;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(245, 245, 220, 0.771);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.img {
+    border-color: red;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 20px;
+    line-height: 1.5px;
+    background-color: rgba(240, 248, 255, 0.442);
+    border-radius: 25px;
+    box-shadow: 10px 15px 15px 15px rgba(255, 229, 115, 0.703), 10px 15px 15px 15px white;
+    display: inline-flex;
+}
+
+.iparis {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    right: 0;
+
+
+}
+
+.paris {
+    text-wrap: wrap;
+    text-align: center;
+    border-style: dotted;
+    line-height: 18px;
+    border-radius: 20px;
+    border-color: rgb(250, 213, 165);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.paris:hover {
+    color: rgba(47, 0, 255, 0.886);
+    font-size: 20px;
+    border: none;
+    padding: 30px;
+    transition-duration: 2s;
+    transform: scale(1.25);
+}
+
+#p_paris:hover {
+    border: none;
+}
+
+.itaj {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    right: 200px;
+}
+
+.taj {
+    text-wrap: wrap;
+    text-align: center;
+    border-style: dotted;
+    line-height: 18px;
+    border-radius: 20px;
+    border-color: rgb(250, 213, 165);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.taj:hover {
+    color: rgba(47, 0, 255, 0.886);
+    font-size: 20px;
+    border: none;
+    padding: 30px;
+    transition-duration: 2s;
+    transform: scale(1.25);
+}
+
+#p_taj:hover {
+    border: none;
+}
+
+.ifitz {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    right: 400px;
+}
+
+.fitz {
+    text-wrap: wrap;
+    text-align: center;
+    border-style: dotted;
+    line-height: 18px;
+    border-radius: 20px;
+    border-color: rgb(250, 213, 165);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.fitz:hover {
+    color: rgba(47, 0, 255, 0.886);
+    text-shadow: 3px 2px 2px 3px black, 3px 2px 2px 3px white;
+    font-size: 20px;
+    border: none;
+    padding: 30px;
+    transition-duration: 2s;
+    transform: scale(1.25);
+}
+
+#p_fitz:hover {
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Styles for screens less than 768px wide */
+    li a {
+        padding: 10px;
+        display: block;
+    }
+
+    a {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+
+    body {
+        background-position: cover;
+    }
+
+    .img {
+        border-color: red;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 900px;
+        margin-left: 0px;
+        padding: 20px;
+        line-height: 1.5px;
+        background-color: rgba(240, 248, 255, 0.442);
+        border-radius: 25px;
+        box-shadow: 10px 15px 15px 15px rgba(255, 229, 115, 0.703), 10px 15px 15px 15px white;
+        position: absolute;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+
+    /* Styles for screens less than 768px wide */
+    li a {
+        padding: 4px;
+        display: block;
+    }
+
+    body {
+        background-image: url("bg1.jpg");
+    }
+
+    a {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+
+    .img {
+        border-color: red;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 900px;
+        margin-left: 0px;
+        padding: 20px;
+        line-height: 1.5px;
+        background-color: rgba(240, 248, 255, 0.442);
+        border-radius: 25px;
+        box-shadow: 10px 15px 15px 15px rgba(255, 229, 115, 0.703), 10px 15px 15px 15px white;
+        position: absolute;
+        display: inline-block;
+    }
+}
